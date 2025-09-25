@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@theme {
+  --color-background: var(--bg-color);
+  --color-surface: var(--surface-color);
+  --color-primarytext: var(--text-primary);
+  --color-secondarytext: var(--text-secondary);
+  --color-brand: var(--brand-color);
+  --color-accent: var(--accent-color);
+  --color-warning: var(--warning-color);
+  --color-danger: var(--danger-color);
+}
+
+:root {
+  --bg-color: #ffffff;
+  --surface-color: #f0f2fb;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --brand-color: #472cf2;
+  --accent-color: #16a34a;
+  --warning-color: #facc15;
+  --danger-color: #ef4444;
+}
+
+.dark {
+  --bg-color: #121212;
+  --surface-color: #1e1e1e;
+  --text-primary: #eaeaea;
+  --text-secondary: #a1a1a1;
+  --brand-color: #8576f9;
+  --accent-color: #22c55e;
+  --warning-color: #fde047;
+  --danger-color: #f87171;
+}
