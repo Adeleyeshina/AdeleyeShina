@@ -31,7 +31,7 @@ const AboutIntro = () => {
           About Me
         </h1>
         <p className="about-item text-lg text-secondarytext leading-relaxed mb-6">
-          Hi 👋 I’m <span className="text-primarytext font-semibold">Adeleye Shina</span>, 
+          Hi 👋 I’m <span className="text-primarytext font-semibold">Shina Adeleye</span>, 
           a passionate <span className="text-brand">Web & Mobile Developer</span>.  
           I specialize in <span className="font-semibold">React, React Native, Expo, 
           Shopify, and WordPress</span>, creating modern, responsive, and user-focused 
