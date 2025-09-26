@@ -24,7 +24,7 @@ const ProjectHeader = () => {
   return (
     <section
       ref={sectionRef}
-      className="w-full md:py-20 px-7 md:px-20 text-center bg-background"
+      className="w-full py-10 md:py-20 px-7 md:px-20 text-center bg-background"
     >
       <h1 className="project-header-item text-4xl md:text-5xl font-bold text-brand mb-4">
         My Projects
