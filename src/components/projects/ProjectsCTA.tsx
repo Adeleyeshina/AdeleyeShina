@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,12 +38,12 @@ const ProjectsCTA = () => {
         <p className="cta-item text-lg text-white/90 mb-8">
           Let’s collaborate and create something amazing together. I’m ready to bring your ideas to life.
         </p>
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="cta-item inline-block px-8 py-4 rounded-lg bg-white text-brand font-semibold shadow-md hover:scale-105 transition-transform"
         >
           Contact Me
-        </a>
+        </Link>
       </div>
     </section>
   );
