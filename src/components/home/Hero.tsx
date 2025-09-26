@@ -50,7 +50,7 @@ const Hero = () => {
 
       {/* Typing Skills */}
       <h2 className="text-2xl md:text-3xl font-semibold text-secondarytext h-10">
-        {text}
+         A {text}
         <span className="border-r-2 border-brand animate-pulse ml-1"></span>
       </h2>
 
