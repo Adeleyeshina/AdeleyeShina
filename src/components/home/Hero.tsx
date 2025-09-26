@@ -45,7 +45,7 @@ const Hero = () => {
     <section className="w-full py-25 md:py-30 flex flex-col items-center justify-center text-center bg-background px-6 ">
       {/* Name */}
       <h1 className="text-5xl md:text-6xl font-extrabold text-brand mb-4">
-        Hi, I’m <span className="text-primarytext">ADELEYE SHINA</span>
+        Hi, I’m <span className="text-primarytext">SHINA ADELEYE</span>
       </h1>
 
       {/* Typing Skills */}
