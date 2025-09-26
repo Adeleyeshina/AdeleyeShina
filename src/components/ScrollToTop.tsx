@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 import { FaAngleUp } from "react-icons/fa6"
+import { useLocation } from "react-router-dom"
 
 
 const ScrollToTop = () => {
 
+    const {pathname} = useLocation()
     const [isVisible, setIsVisible] = useState<boolean>(false)
 
     const toggleVisibility = () => {
@@ -14,6 +16,10 @@ const ScrollToTop = () => {
         }
     }
 
+    useEffect(()=> {
+        window.scrollTo(0,0)
+    }, [pathname])
+    
     const scrollTop = ()=> {
         window.scrollTo({top : 0, behavior : "smooth"})
     }    
