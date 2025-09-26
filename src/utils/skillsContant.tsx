@@ -22,6 +22,7 @@ export const skills = [
   { name: "Express.js", category: "Backend", icon: <SiExpress className="text-gray-700 text-5xl" /> },
   { name: "MongoDB", category: "Backend", icon: <SiMongodb className="text-green-700 text-5xl" /> },
   { name: "Redis", category: "Backend", icon: <img src={RedisIcon} className="text-red-500 w-[3rem]" /> }, 
+    { name: "TypeScript", category: "Backend", icon: <SiTypescript className="text-blue-600 text-5xl" /> },
 
   // Frontend
   { name: "React", category: "Frontend", icon: <FaReact className="text-sky-400 text-5xl" /> },

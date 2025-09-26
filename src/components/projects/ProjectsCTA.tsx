@@ -38,7 +38,7 @@ const ProjectsCTA = () => {
           Let’s collaborate and create something amazing together. I’m ready to bring your ideas to life.
         </p>
         <a
-          href="#contact"
+          href="/contact"
           className="cta-item inline-block px-8 py-4 rounded-lg bg-white text-brand font-semibold shadow-md hover:scale-105 transition-transform"
         >
           Contact Me

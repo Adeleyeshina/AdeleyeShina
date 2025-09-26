@@ -41,7 +41,7 @@ const SkillsPage = () => {
 
         {categories.map((cat) => (
           <div key={cat} className="mb-12">
-            <h3 className="text-2xl font-semibold text-primarytext dark:text-white mb-6">{cat}</h3>
+            <h3 className="text-2xl font-semibold text-primarytext mb-6">{cat}</h3>
             <div className="flex flex-wrap justify-center gap-10">
               {skills
                 .filter((skill) => skill.category === cat)
@@ -55,7 +55,7 @@ const SkillsPage = () => {
                         {skill.icon}
                       </span>
                     )}
-                    <p className="text-primarytext dark:text-white">{skill.name}</p>
+                    <p className="text-primarytext">{skill.name}</p>
                   </div>
                 ))}
             </div>
