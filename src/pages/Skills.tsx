@@ -31,7 +31,7 @@ const SkillsPage = () => {
     }
   }, []);
 
-  const categories: ("Frontend" | "Backend" | "Tools")[] = ["Frontend", "Backend", "Tools"];
+  const categories: ("Frontend" | "Backend" |  "Tools" | "CMS")[] = ["Frontend", "Backend", "CMS", "Tools"];
 
   return (
     <PageWrapper>

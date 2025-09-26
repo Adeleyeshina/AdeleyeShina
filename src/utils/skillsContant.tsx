@@ -48,6 +48,6 @@ export const skills = [
   // CMS / Platforms
   { name: "WordPress", category: "CMS", icon: <SiWordpress className="text-blue-700 text-5xl" /> },
   { name: "Shopify", category: "CMS", icon: <SiShopify className="text-green-600 text-5xl" /> },
-  { name: "Wix", category: "CMS", icon: <SiWix /> },
+  { name: "Wix", category: "CMS", icon: <SiWix  className="text-[#0C6EFC] "/> },
 ];
 
