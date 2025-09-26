@@ -58,7 +58,7 @@ const AboutPreview = () => {
                         About Me
                     </h2>
                     <p className="text-secondarytext mb-8 leading-relaxed max-w-xl">
-                        I’m <span className="text-primarytext font-semibold">Adeleye Shina</span>,
+                        I’m <span className="text-primarytext font-semibold">Shina Adeleye</span>,
                         a passionate developer skilled in building modern web and mobile
                         applications using React, React Native, Expo, Node JS and TailwindCSS.
                         I love crafting clean, functional, and engaging digital experiences.
