@@ -8,22 +8,22 @@ gsap.registerPlugin(ScrollTrigger);
 const highlights = [
   {
     icon: <FaProjectDiagram className="text-brand text-4xl" />,
-    number: "10+",
+    number: "20+",
     label: "Projects Completed",
   },
   {
     icon: <FaUsers className="text-brand text-4xl" />,
-    number: "5+",
+    number: "20+",
     label: "Happy Clients",
   },
   {
     icon: <FaGlobe className="text-brand text-4xl" />,
-    number: "3",
+    number: "5",
     label: "Countries Served",
   },
   {
     icon: <FaClock className="text-brand text-4xl" />,
-    number: "2+",
+    number: "3+",
     label: "Years Experience",
   },
 ];
