@@ -27,7 +27,7 @@ export const skills = [
   // Frontend
   { name: "React", category: "Frontend", icon: <FaReact className="text-sky-400 text-5xl" /> },
   { name: "React Native", category: "Frontend", icon: <FaReact className="text-blue-500 text-5xl" /> },
-  { name: "Expo", category: "Frontend", icon: <SiExpo className="text-black dark:text-white text-5xl" /> },
+  { name: "Expo", category: "Frontend", icon: <SiExpo className="text-primary text-5xl" /> },
   { name: "TypeScript", category: "Frontend", icon: <SiTypescript className="text-blue-600 text-5xl" /> },
   { name: "TailwindCSS", category: "Frontend", icon: <SiTailwindcss className="text-cyan-400 text-5xl" /> },
   { name: "HTML5", category: "Frontend", icon: <SiHtml5 className="text-orange-500 text-5xl" /> },

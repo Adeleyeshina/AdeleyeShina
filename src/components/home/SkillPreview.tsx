@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const skills = [
   { name: "React", icon: <FaReact className="text-sky-400 text-5xl" /> },
   { name: "React Native", icon: <FaReact className="text-blue-500 text-5xl" /> },
-  { name: "Expo", icon: <SiExpo className="text-black dark:text-white text-5xl" /> },
+  { name: "Expo", icon: <SiExpo className="text-primary  text-5xl" /> },
   { name: "TailwindCSS", icon: <SiTailwindcss className="text-cyan-400 text-5xl" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-5xl" /> },
   { name: "Shopify", icon: <SiShopify className="text-green-600 text-5xl" /> },
