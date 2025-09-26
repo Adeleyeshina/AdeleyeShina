@@ -30,7 +30,7 @@ const ProjectHeader = () => {
         My Projects
       </h1>
       <p className="project-header-item text-lg md:text-xl text-primarytext max-w-2xl mx-auto">
-        A showcase of some web, mobile, and e-commerce projects I’ve built. Each project highlights
+        A showcase of some projects I’ve built. Each project highlights
         my skills in modern development tools, frameworks, and design practices.
       </p>
     </section>
