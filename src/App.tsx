@@ -10,12 +10,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 const App = () => {
- 
+
 
   return (
     <div className="bg-background text-primarytext min-h-screen transition-colors duration-500">
 
-    {<Navbar />}
+      {<Navbar />}
       <main className="pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
