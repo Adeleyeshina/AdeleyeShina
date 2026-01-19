@@ -7,6 +7,8 @@ import Castledbs from "../assets/images/castle-dbs.png"
 import Earnbnb from "../assets/images/earnbnb.png"
 import Health from "../assets/images/healthnest.png"
 import Truehealth from "../assets/images/truehealth.png"
+import MicoSupply from "../assets/images/micosupply.png"
+import FitLife from "../assets/images/fitlife.png"
 
 export const navLink = [
   {
@@ -40,10 +42,24 @@ export const projects = [
   {
     title: "NadiiTech Engineering",
     description:
-     "Nadii Technology is an engineering website built with the MERN stack that allows users to book engineering services and shop through a mini e-commerce system with features like product listings, cart, and checkout.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Paystack", "TailwindCSS", "Redis", "Paystack"],
+      "Nadii Technology is an engineering website built with the MERN stack that allows users to book engineering services and shop through a mini e-commerce system with features like product listings, cart, and checkout.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Paystack", "TailwindCSS", "Redis", "Paystack", "nodemailer"],
     link: "https://nadiitechengineering.com/",
     image: Nadii,
+  },
+  {
+    title: "Mico Supply",
+    description: "Mico Supply is a construction materials e-commerce platform built with Next.js, featuring a user-facing storefront for browsing and purchasing building supplies, as well as an admin panel for managing products, categories, orders, and inventory, with support for delivery and contractor-focused services.",
+    tech: ["Next Js", "MongoDB", "Paystack", "TailwindCSS", "Shadcn ui", "Paystack", "nodemailer", "zustand"],
+    link: "https://micosupply.com/",
+    image: MicoSupply,
+  },
+  {
+    title: "FitLife",
+    description: "FitLife Silk is a fitness and wellness web application built with Next.js that provides users with personalized workout plans, health tracking, and fitness resources to help them achieve their goals, featuring smooth navigation and responsive design for an engaging user experience.",
+    tech: ["React", "Paystack", "TailwindCSS",],
+    link: "https://fitlife-silk.vercel.app/",
+    image: FitLife,
   },
   {
     title: "CastleLuxury Shortlet",
@@ -70,7 +86,7 @@ export const projects = [
   },
   {
     title: "Health Nest",
-    description:"Health Nest is a WordPress website designed to showcase health-related services and resources, featuring a responsive layout, user-friendly navigation, and modern design",
+    description: "Health Nest is a WordPress website designed to showcase health-related services and resources, featuring a responsive layout, user-friendly navigation, and modern design",
     tech: ["Wordpress", "Elementor"],
     link: "https://healthnesty.wasmer.app/",
     image: Health,
@@ -85,7 +101,7 @@ export const projects = [
   // },
   {
     title: "Castle ",
-    description:"Agent DBMS – A simple database management system built with the MERN stack to store and manage agent data, featuring agent registration, data validation, and CRUD operations with a secure backend.",
+    description: "Agent DBMS – A simple database management system built with the MERN stack to store and manage agent data, featuring agent registration, data validation, and CRUD operations with a secure backend.",
     tech: ["React", "TailwindCSS", "Express Js", "MongoDB", "TypeScript", "Node.js"],
     link: "https://castle-luxury.vercel.app/",
     image: Castledbs,
